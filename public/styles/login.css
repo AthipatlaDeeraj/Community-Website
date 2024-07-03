@@ -1,0 +1,25 @@
+body{
+    background-color: #FAF6F0 !important;
+}
+.main-container{
+    position: relative;
+    width: 26%;
+    margin-top: 10%;
+    left: 40%;
+}
+
+@media (max-width:800px){
+    .main-container{
+        position: relative;
+        width: 60%;
+        left: 30%;
+    }
+}
+
+@media (max-width:1400px){
+    .main-container{
+        position: relative;
+        width: 35%;
+        left: 30%;
+    }
+}
