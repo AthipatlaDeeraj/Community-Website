@@ -11,12 +11,3 @@ node_modules/
 
 # Build artifacts
 dist/
-build/
-
-# Temporary files
-*.tmp
-*.swp
-
-# Operating system files
-.DS_Store
-Thumbs.db
