@@ -11,3 +11,15 @@ Your Neighborhood Nexus Platform aims to foster local engagement by connecting c
 **Real-time Alerts and Notifications**: Implement a system for real-time alerts about emergencies, community updates, or important local news to keep users informed.
 
 **Feedback Mechanism:** Integrate a feedback system where community members can provide suggestions and rate the relevance and impact of events and news.
+
+**A VERY GOOD RESPONSIVE WEBSITE WITH BASIC SEARCH ALGORITHM**
+
+![image](https://github.com/AthipatlaDeeraj/Community-Website/assets/158032353/dde97c7d-5e10-43ca-aa89-a2ae2583dd94)
+
+![image](https://github.com/AthipatlaDeeraj/Community-Website/assets/158032353/b8f84ae0-a766-4f3c-936d-3b99e4ee9ad2)
+
+![image](https://github.com/AthipatlaDeeraj/Community-Website/assets/158032353/12460982-4f23-485e-b994-482a5e67006f)   ![image](https://github.com/AthipatlaDeeraj/Community-Website/assets/158032353/bb3ad03a-4672-4bab-920f-a9ec68f40580)
+
+**PROVIDES FULL RESPONSIVENESS FOR MOBILES**
+
+![image](https://github.com/AthipatlaDeeraj/Community-Website/assets/158032353/76f2cefd-4e0e-4bb2-a861-9beebf0c03a1)
