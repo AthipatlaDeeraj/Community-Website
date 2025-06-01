@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    background-color: #FAF6F0;
+}
+
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, #89f7fe, #66a6ff);
+  z-index: -1;
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 1.5fr 4fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar-brand img{
+  width: 3.8vh;
+  height: 3.8vh;
+}
+
+.cols-1{
+  
+  border-right: 2px solid black;
+    column-span: 1;
+}
+
+.cols-2{
+    column-span: 2;
+}
+
+.profiles-link{
+    text-decoration: none;
+}
+
+.profiles{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.profile-1{
+    margin-top: 5px;
+    background: linear-gradient(to bottom, #c2e9fb, #a1c4fd);
+    padding: 2vh;
+}
+
+.chat{
+  width: 50vh;
+  height: 3vh;
+  overflow: hidden;
+}
+
+.profile-1:hover{
+  cursor:pointer;
+  background:rgb(255, 255, 255);
+  border-radius: 2vh;
+}
+
+.profilesgrids{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    gap: 0;
+}
+.profile-photo img{
+    border-radius: 20px;
+    height: 6vh;
+    width: 5vh;
+}
+.profile-photo{
+  grid-row: span 2;
+}
+
+.profiles .name{
+    font-size: medium;
+    font-weight: bolder;
+}
+
+.searchbar-forchat{
+    background-color: #aff3f7;
+    padding: 3vh;
+}
+
+.searchbar-forchat input{
+    margin-top: 7vh;
+    border:none;
+    padding: 1vh;
+    border-radius:2vh;
+    width: 90%;
+}
+.cols-2{
+  margin-top: 2vh;
+    padding: 20px;
+}
+
+  
+  body {
+    font-family: Arial;
+    background: #f1f1f1;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center; 
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+
+  .bottom-navbar{
+    display: none;
+  }
+
+  .leftcolumn .card{
+    border: none;
+  }
+  .rightcolumn .card{
+    border: none;
+  }
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+
+@media screen and (max-width:800px){
+  .bottom-navbar{
+    display: contents;
+  }
+  .top-navbar{
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
